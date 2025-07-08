@@ -24,9 +24,9 @@
 <script>
     var sp = "/";
     today = new Date();
-    var dd = Date.getDay();
-    var mm = Date.getMonth() + 1;
-    var yyyy = Date.getFullYear();
+    var dd = today.getDay();
+    var mm = today.getMonth() + 1;
+    var yyyy = today.getFullYear();
     $("#date").html(mm+sp+dd+sp+yyyy);
 </script>
 </html>
